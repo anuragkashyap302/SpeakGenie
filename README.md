@@ -82,6 +82,7 @@ Desktop: Enhanced spacing and centering (bonus)
 Layouts are designed to naturally stretch on larger screens without relying on fixed widths.
 
 🧩 Component Structure
+```text
 src/
 │── components/
 │   ├── BottomNav.jsx
@@ -100,6 +101,7 @@ src/
 │── App.jsx
 │── main.jsx
 │── index.css
+```
 
 
 Components are designed to be:
