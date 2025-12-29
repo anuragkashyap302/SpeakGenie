@@ -22,7 +22,7 @@ import foxy from "./waiting with foxy.png";
 
 import shashiTharur from "./Shashi tharur.jpg";
 import shinchan from "./ShinChan.jpg";
-import kohli from "./Kohili.jpg";
+import kohli from "./Virat.jpg";
 import spiderman from "./Spiderman.jpg";
 import doraemon from "./Doremon.jpg";
 
