@@ -1,13 +1,12 @@
 🎧 Frontend Engineer Interview Task
 
-This project is a pixel-close recreation of given UI screens from an existing learning app, built as part of a Frontend Engineer interview assignment.
+This project is a pixel-close recreation of the provided UI screens from an existing learning app, built as part of a Frontend Engineer interview assignment.
 
 The focus of this assignment is UI accuracy, component structure, responsiveness, and clean frontend practices, rather than backend or API integration.
 
-🚀 Live Demo
 
-👉 Live URL:
-<ADD YOUR VERCEL / NETLIFY LINK HERE>
+👉 Live Demo:
+https://speak-genie-inky.vercel.app/
 
 📦 Tech Stack
 
@@ -19,7 +18,7 @@ Tailwind CSS
 
 React Router DOM
 
-Lucide React (icons)
+Lucide React (Icons)
 
 Native HTML Audio API
 
@@ -28,19 +27,21 @@ Native HTML Audio API
 
 Gradient header with user greeting
 
-XP Progress card (responsive, stretches on desktop)
+Responsive XP Progress card (stretches on desktop)
 
-Action grid (Video, Stories, AI Calls, etc.)
+Action grid (Video Learning, Stories, AI Calls, etc.)
 
 Horizontal story carousels
 
-Bottom navigation with active state
+Bottom navigation with active state handling
 
 Mobile-first layout
 
 ✅ Screen 2 — Now Playing (Audio Story Player)
 
-Real audio playback using native <audio>
+You can open this screen by clicking on any Audio Story from the Home page.
+
+Real audio player UI
 
 Play / Pause functionality
 
@@ -52,7 +53,7 @@ Centered artwork (mobile & desktop)
 
 Quiz CTA with badge
 
-Fully responsive UI
+Fully responsive layout
 
 ✅ Screen 3 — Craft a Custom Quiz (Learn Tab)
 
@@ -72,13 +73,13 @@ Toast notification feedback
 
 This project follows a mobile-first design strategy, as specified in the assignment:
 
-Mobile: Primary focus, pixel-close UI
+Mobile: Primary focus with pixel-close UI
 
-Tablet: Graceful scaling, no broken layouts
+Tablet: Graceful scaling without layout breaks
 
 Desktop: Enhanced spacing and centering (bonus)
 
-Layouts are built to naturally stretch on larger screens without fixed widths.
+Layouts are designed to naturally stretch on larger screens without relying on fixed widths.
 
 🧩 Component Structure
 src/
@@ -86,8 +87,10 @@ src/
 │   ├── BottomNav.jsx
 │   ├── Header.jsx
 │   ├── XPProgress.jsx
-│   ├── StoryCard.jsx
-│   ├── ScrollToTop.jsx
+│   ├── ActionGrid.jsx
+│   ├── AudioStories.jsx
+│   ├── PracticeWithAI.jsx
+│   ├── PracticeWithHuman.jsx
 │
 │── pages/
 │   ├── Home.jsx
@@ -113,19 +116,19 @@ Uses native HTML Audio API
 
 No external audio libraries
 
-Managed via useRef and useState
+Managed using useRef and useState
 
 Supports:
 
 Play / Pause
 
-Progress sync
+Progress synchronization
 
 Click-to-seek
 
 Time formatting
 
-This approach keeps the solution lightweight and production-friendly.
+This approach keeps the implementation lightweight and production-friendly.
 
 🧠 Assumptions Made
 
@@ -139,7 +142,7 @@ Images and audio files are served locally from /public
 
 🛠️ How to Run Locally
 # Clone repository
-git clone <your-repo-url>
+git clone https://github.com/anuragkashyap302/SpeakGenie
 
 # Install dependencies
 npm install
@@ -173,7 +176,7 @@ This project intentionally prioritizes frontend craftsmanship:
 
 Clean layout logic
 
-Accurate spacing & hierarchy
+Accurate spacing & visual hierarchy
 
 Mobile-first thinking
 
